@@ -29,8 +29,16 @@ int EvalRPNExp(char exp[])
 				SPush(&stack, op1 + op2);
 				break;
 			case '-':
-
+				SPush(&stack, op1 - op2);
+				break;
+			case '*':
+				SPush(&stack, op1 * op2);
+				break;
+			case '/':
+				SPush(&stack, op1 / op2);
+				break;
 			}
 		}
 	}
+	return SPop(&stack);
 }

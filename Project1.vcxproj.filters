@@ -24,6 +24,9 @@
     <ClInclude Include="PostCalculator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="InfixCalculator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InfixToPostfix.c">

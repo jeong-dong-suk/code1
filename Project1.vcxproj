@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="InfixCalculator.h" />
     <ClInclude Include="InfixToPostfix.h" />
     <ClInclude Include="ListBaseStack.h" />
     <ClInclude Include="PostCalculator.h" />
