@@ -25,6 +25,8 @@
     <ClInclude Include="PostCalculator.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="InfixCalculator.c" />
+    <ClCompile Include="InfixCalculatorMain.c" />
     <ClCompile Include="InfixToPostfix.c" />
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="PostCalculator.c" />

@@ -1,2 +1,2 @@
 #pragma once
-void ConvToRPNExp(chjar exp[]);
+void ConvToRPNExp(char exp[]);

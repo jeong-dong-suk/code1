@@ -38,5 +38,11 @@
     <ClCompile Include="PostCalculator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="InfixCalculator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculatorMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
