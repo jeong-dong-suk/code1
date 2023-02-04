@@ -49,5 +49,5 @@ void print_list(list_t* plist)
 		printf("%d ", node->data);
 		node = node->next;
 	}
-	printf("\n\n");
+	printf("\n");
 }
