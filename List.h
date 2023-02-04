@@ -19,7 +19,8 @@ typedef struct list
 
 void init_list(list_t* plist);
 void insert_head(list_t* plist, node_t* node);
-void insert_tail(list_t* plist, node_t* node);
+
+void insert_node(list_t* plist, node_t* node, node_t* prev_node);
 void delete_head(list_t* plist);
-void delete_tail(list_t* plist);
+void delete_node(list_t* plist);
 void print_list(list_t* plist);

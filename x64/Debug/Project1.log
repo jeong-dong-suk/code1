@@ -2,12 +2,15 @@
 C:\Users\BIT\Desktop\새 폴더\code1\List.h(3,1): warning C4005: 'NULL': 매크로 재정의
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime.h(235): message : 'NULL'의 이전 정의를 참조하십시오.
 C:\Users\BIT\Desktop\새 폴더\code1\List.c(22,27): warning C4133: '=': 'node_t *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
-C:\Users\BIT\Desktop\새 폴더\code1\List.c(32,29): warning C4133: '=': 'node_t *'과(와) 'list_t *' 사이의 형식이 호환되지 않습니다.
-C:\Users\BIT\Desktop\새 폴더\code1\List.c(33,34): warning C4133: '=': 'Node *'과(와) 'node_t *' 사이의 형식이 호환되지 않습니다.
-C:\Users\BIT\Desktop\새 폴더\code1\List.c(34,3): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\BIT\Desktop\새 폴더\code1\List.c(49,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
-C:\Users\BIT\Desktop\새 폴더\code1\List.c(49,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
-C:\Users\BIT\Desktop\새 폴더\code1\List.c(50,20): warning C4133: '=': 'Node *'과(와) 'node_t *' 사이의 형식이 호환되지 않습니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(44,15): warning C4133: '=': 'Node *'과(와) 'node_t *' 사이의 형식이 호환되지 않습니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(53,18): warning C4133: '=': 'node_t *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(54,26): warning C4133: '=': 'node_t *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(67,29): warning C4133: '=': 'node_t *'과(와) 'list_t *' 사이의 형식이 호환되지 않습니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(68,34): warning C4133: '=': 'Node *'과(와) 'node_t *' 사이의 형식이 호환되지 않습니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(69,3): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(88,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(88,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\BIT\Desktop\새 폴더\code1\List.c(89,20): warning C4133: '=': 'Node *'과(와) 'node_t *' 사이의 형식이 호환되지 않습니다.
   main.c
 C:\Users\BIT\Desktop\새 폴더\code1\List.h(3,1): warning C4005: 'NULL': 매크로 재정의
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime.h(235): message : 'NULL'의 이전 정의를 참조하십시오.

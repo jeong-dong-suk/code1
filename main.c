@@ -18,19 +18,19 @@ int main(void)
 
 	init_list(&list);
 
-	insert_head(&list, node1);
-	insert_head(&list, node2);
-	insert_head(&list, node3);
 	insert_head(&list, node4);
+	insert_head(&list, node2);
+	insert_head(&list, node1);
+	insert_node(&list, node3, node4);
 
 	print_list(&list);
 
-	delete_head(&list);
+	//delete_head(&list);
 
 	
-	delete_head(&list);
-	delete_head(&list);
-	delete_head(&list);
-	print_list(&list);
+	//delete_head(&list);
+	//delete_head(&list);
+	//delete_head(&list);
+	//print_list(&list);
 	return 0;
 }
