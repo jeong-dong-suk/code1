@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="List.h" />
+    <ClInclude Include="Deque.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="List.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="Deque.c" />
+    <ClCompile Include="DequeMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
