@@ -90,7 +90,7 @@ BTreeNode * RemoveLeftSubTree(BTreeNode * bt)
 
 BTreeNode * RemoveRightSubTree(BTreeNode * bt)
 {
-	BTreeNode * delNode;
+	BTreeNode * delNode=NULL;
 
 	if(bt != NULL) {
 		delNode = bt->right;
