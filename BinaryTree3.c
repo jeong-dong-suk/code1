@@ -79,7 +79,7 @@ void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action)
 
 BTreeNode * RemoveLeftSubTree(BTreeNode * bt)
 {
-	BTreeNode * delNode;
+	BTreeNode * delNode=NULL;
 
 	if(bt != NULL) {
 		delNode = bt->left;
