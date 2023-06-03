@@ -22,9 +22,18 @@ char* my_strcpy(char* dest, const char* src)
 	return dest;
 }
 
+typedef struct person {
+	int age;
+	char name;
+	int money;
+} person_t;
+
 int main()
 {
-		
+	int s = sizeof(person_t);
+
+	person_t p0;
+
 	const char* str1 = "Hello";
 	char str2[20];
 	char str3[6];
