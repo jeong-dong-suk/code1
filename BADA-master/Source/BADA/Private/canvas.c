@@ -29,6 +29,11 @@ void release_canvas(void)
 void draw_pixel(size_t x, size_t y, uint32_t rgb_color)
 {
     s_canvas[y * s_cols + x]=rgb_color;
+     s_data[s_data_count].x = x;
+    s_data[s_data_count].y = y;
+    s_data[s_data_count].rgb_color = rgb_color;
+
+    s_data_count += 1;
 }
 
 void remove_pixel(size_t x, size_t y)
