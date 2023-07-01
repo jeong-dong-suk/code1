@@ -45,7 +45,7 @@ void remove_pixel(size_t x, size_t y)
     s_data[s_data_count].rgb_color = s_canvas[y * s_cols + x];
     s_data[s_data_count].x = x;
     s_data[s_data_count].y = y;
-    uint32_t rgb_color = s_data[s_data_count].rgb_color;
+  
     s_data_count += 1;
 
     s_canvas[y * s_cols + x] = 0xffffff;
@@ -53,22 +53,31 @@ void remove_pixel(size_t x, size_t y)
 
 void fill_canvas(uint32_t rgb_color)
 {
-   
+    int x = s_data[s_data_count].x;
+    int y = s_data[s_data_count].y;
+    
 
+   
+    
     for ( int y = 0; y < s_rows; y++)
     {
+        
         for ( int x = 0; x < s_cols; x++)
         {
+            s_data[s_data_count].x = x; 
+            s_data[s_data_count].y = y;
+            s_data[s_data_count].rgb_color = s_canvas[y * s_cols + x];
             s_canvas[y * s_cols + x] =rgb_color;
         }
-        
+         s_data_count += 1;
     }
-    
+   
+     
 }
 
 void draw_horizontal_line(size_t y, uint32_t rgb_color)
 {
-   
+    
 
     for (int x = 0; x < s_cols; x++)
     {
@@ -81,7 +90,6 @@ void draw_horizontal_line(size_t y, uint32_t rgb_color)
 void draw_vertical_line(size_t x, uint32_t rgb_color)
 {
     
-   
 
     for (int y = 0; y < s_rows; y++)
     {
@@ -92,8 +100,7 @@ void draw_vertical_line(size_t x, uint32_t rgb_color)
 
 void draw_rectangle(size_t start_x, size_t start_y, size_t end_x, size_t end_y, uint32_t rgb_color)
 {
-   
-
+    
     for (int y = start_y; y <= end_y; y++)
     {
         for (int x = start_x; x <= end_x; x++)
